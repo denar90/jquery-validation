@@ -70,6 +70,7 @@ grunt.initConfig( {
 		}
 	},
 	uglify: {
+		debug: true,
 		options: {
 			preserveComments: false,
 			banner: "/*! <%= pkg.title || pkg.name %> - v<%= pkg.version %> - " +
